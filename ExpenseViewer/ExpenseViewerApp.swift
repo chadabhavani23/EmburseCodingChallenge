@@ -1,9 +1,3 @@
-//
-//  ExpenseViewerApp.swift
-//  ExpenseViewer
-//
-//  Created by chada bhavani on 16/09/26.
-//
 
 import SwiftUI
 
@@ -11,7 +5,7 @@ import SwiftUI
 struct ExpenseViewerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ExpenseListView()
         }
     }
 }
